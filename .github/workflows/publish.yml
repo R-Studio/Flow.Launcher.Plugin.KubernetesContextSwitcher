@@ -7,6 +7,10 @@ on:
   push:
     branches: [ "main" ]
 
+# Add permissions for creating releases
+permissions:
+  contents: write
+
 jobs:
   build:
 
