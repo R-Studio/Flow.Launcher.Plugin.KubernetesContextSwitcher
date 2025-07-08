@@ -1,12 +1,12 @@
 {
-  "ID": "KubernetesContextSwitcher",
+  "ID": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
   "ActionKeyword": "k8s",
   "Name": "Kubernetes Context Switcher",
   "Description": "Switch between Kubernetes contexts quickly",
   "Author": "Robin Hermann",
   "Version": "1.0.1",
   "Language": "csharp",
-  "Website": "https://github.com/r-studio/flow-launcher-k8s-context-switcher",
+  "Website": "https://github.com/r-studio/Flow.Launcher.Plugin.KubernetesContextSwitcher",
   "IcoPath": "Images/k8s.png",
   "ExecuteFileName": "Flow.Launcher.Plugin.KubernetesContextSwitcher.dll",
   "Disabled": false
