@@ -31,8 +31,8 @@ Write-Host "Creating release package in: $releaseDir" -ForegroundColor Yellow
 $buildDir = "bin\Release\net7.0-windows7.0"
 
 # Copy DLL and dependencies
-Copy-Item -Path "$buildDir\KubernetesContextSwitcher.dll" -Destination $releaseDir -Force
-Copy-Item -Path "$buildDir\KubernetesContextSwitcher.deps.json" -Destination $releaseDir -Force
+Copy-Item -Path "$buildDir\Flow.Launcher.Plugin.KubernetesContextSwitcher.dll" -Destination $releaseDir -Force
+Copy-Item -Path "$buildDir\Flow.Launcher.Plugin.KubernetesContextSwitcher.deps.json" -Destination $releaseDir -Force
 
 # Copy plugin.json
 Copy-Item -Path "plugin.json" -Destination $releaseDir -Force

@@ -2,7 +2,7 @@ using Flow.Launcher.Plugin;
 using System.Diagnostics;
 using System.Text.Json;
 
-namespace KubernetesContextSwitcher;
+namespace Flow.Launcher.Plugin.KubernetesContextSwitcher;
 
 public class Main : IPlugin
 {

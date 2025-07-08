@@ -40,8 +40,8 @@ New-Item -ItemType Directory -Path $pluginsDir -Force | Out-Null
 Write-Host "Copying files..." -ForegroundColor Yellow
 
 # Copy built DLL and dependencies
-Copy-Item -Path "$buildDir\KubernetesContextSwitcher.dll" -Destination $pluginsDir -Force
-Copy-Item -Path "$buildDir\KubernetesContextSwitcher.deps.json" -Destination $pluginsDir -Force
+Copy-Item -Path "$buildDir\Flow.Launcher.Plugin.KubernetesContextSwitcher.dll" -Destination $pluginsDir -Force
+Copy-Item -Path "$buildDir\Flow.Launcher.Plugin.KubernetesContextSwitcher.deps.json" -Destination $pluginsDir -Force
 
 # Copy plugin.json
 Copy-Item -Path "$sourceDir\plugin.json" -Destination $pluginsDir -Force

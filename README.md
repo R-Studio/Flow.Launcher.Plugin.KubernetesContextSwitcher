@@ -122,7 +122,7 @@ If you encounter permission issues:
 ### Project Structure
 
 ```
-KubernetesContextSwitcher/
+flow-launcher-k8s-context-switcher/
 ├── Main.cs                            # Main plugin logic
 ├── plugin.json                        # Plugin manifest
 ├── KubernetesContextSwitcher.csproj   # Project file
