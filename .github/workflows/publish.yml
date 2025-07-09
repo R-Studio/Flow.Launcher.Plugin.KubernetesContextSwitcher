@@ -40,7 +40,7 @@ jobs:
     - name: Publish
       uses: softprops/action-gh-release@v2
       with:
-        files: "Flow.Launcher.Plugin.KubernetesContextSwitcher.zip"
+        files: "Flow.Launcher.Plugin.KubernetesContextSwitcher/Flow.Launcher.Plugin.KubernetesContextSwitcher.zip"
         tag_name: "v${{steps.version.outputs.prop}}"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
