@@ -7,7 +7,7 @@
   "Version": "1.0.1",
   "Language": "csharp",
   "Website": "https://github.com/r-studio/Flow.Launcher.Plugin.KubernetesContextSwitcher",
-  "IcoPath": "Images/k8s.png",
+  "IcoPath": "Images\\k8s.png",
   "ExecuteFileName": "Flow.Launcher.Plugin.KubernetesContextSwitcher.dll",
   "Disabled": false
 }
