@@ -34,12 +34,12 @@ jobs:
         dotnet restore
     - name: Build
       run: |
-        dotnet publish -c Release -r win-x64 --no-self-contained Flow.Launcher.Plugin.KubernetesContextSwitcher.csproj
-        7z a -tzip "Flow.Launcher.Plugin.KubernetesContextSwitcher.zip" "./bin/Release/net7.0-windows7.0/win-x64/publish/*"
+        dotnet publish -c Release -r win-x64 Flow.Launcher.Plugin.KubernetesContextSwitcher.csproj -o "KubernetesContextSwitcher-${{steps.version.outputs.prop}}"
+        7z a -tzip "KubernetesContextSwitcher-${{steps.version.outputs.prop}}.zip" "./KubernetesContextSwitcher-${{steps.version.outputs.prop}}/*"
     - name: Publish
       uses: softprops/action-gh-release@v2
       with:
-        files: "Flow.Launcher.Plugin.KubernetesContextSwitcher.zip"
+        files: "KubernetesContextSwitcher*"
         tag_name: "v${{steps.version.outputs.prop}}"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
