@@ -2,18 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0-windows7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <AssemblyName>Flow.Launcher.Plugin.KubernetesContextSwitcher</AssemblyName>
     <RootNamespace>Flow.Launcher.Plugin.KubernetesContextSwitcher</RootNamespace>
-    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <Version>1.0.1</Version>
-    <Authors>Robin Hermann</Authors>
     <Description>A Flow Launcher plugin to switch Kubernetes contexts quickly</Description>
     <PackageId>Flow.Launcher.Plugin.KubernetesContextSwitcher</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Robin Hermann</Authors>
     <PackageProjectUrl>https://github.com/R-Studio/Flow.Launcher.Plugin.KubernetesContextSwitcher</PackageProjectUrl>
     <RepositoryUrl>https://github.com/R-Studio/Flow.Launcher.Plugin.KubernetesContextSwitcher</RepositoryUrl>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
