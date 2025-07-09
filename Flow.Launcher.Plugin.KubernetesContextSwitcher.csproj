@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Flow.Launcher.Plugin.KubernetesContextSwitcher</AssemblyName>
+    <RootNamespace>Flow.Launcher.Plugin.KubernetesContextSwitcher</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Version>1.0.1</Version>
+    <Authors>Robin Hermann</Authors>
+    <Description>A Flow Launcher plugin to switch Kubernetes contexts quickly</Description>
+    <PackageId>Flow.Launcher.Plugin.KubernetesContextSwitcher</PackageId>
+    <PackageProjectUrl>https://github.com/R-Studio/Flow.Launcher.Plugin.KubernetesContextSwitcher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/R-Studio/Flow.Launcher.Plugin.KubernetesContextSwitcher</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flow.Launcher.Plugin" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="images\k8s.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="images\error.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project> 
