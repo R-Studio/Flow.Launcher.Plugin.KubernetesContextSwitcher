@@ -13,6 +13,7 @@
     <PackageId>Flow.Launcher.Plugin.KubernetesContextSwitcher</PackageId>
     <PackageProjectUrl>https://github.com/R-Studio/Flow.Launcher.Plugin.KubernetesContextSwitcher</PackageProjectUrl>
     <RepositoryUrl>https://github.com/R-Studio/Flow.Launcher.Plugin.KubernetesContextSwitcher</RepositoryUrl>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
